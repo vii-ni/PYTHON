@@ -32,6 +32,7 @@ RESPOSTA: '''))
     #ver usuários
     try:
         if res == 0:
+            os.system('clear')
             bc.visualizarUser()
             time.sleep(1.5)
         #criar usuário
@@ -63,6 +64,7 @@ RESPOSTA: '''))
             print("\033[1;31m","desconectando...","\033[m")
             time.sleep(1.5)
             #final do loop
+            os.system('clear')
             break
             
         #respota para número fora de [0-4]
