@@ -3,6 +3,9 @@ import time
 import bancoDB as bc
 import os
 
+#definindo variáveis
+res = None
+
 #limpa o terminal
 os.system('clear')
 
